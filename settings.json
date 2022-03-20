@@ -1,0 +1,928 @@
+{
+    "License": "Contact Admin",
+    "Account": {
+        "Username": "mentari19",
+        "Password": "Maudi@123"
+    },
+    "Play Game": {
+        "Mode": "dice",
+        "Currency": "btt",
+        "Show Price": "ON",
+        "Delay Bet(ms)": "0"
+    },
+    "Target": {
+        "Profit (amt)": "0",
+        "Profit (%)": "0",
+        "Balance": "0",
+        "Lose": "0"
+    },
+    "Stopwin": {
+        "On Profit": "True",
+        "If Maxbet": "0",
+        "If Balance Drop (%)": "0",
+        "After LS": "0"
+    },
+    "Repeat Play": {
+        "Status": "OFF",
+        "Delay (sec)": "15"
+    },
+    "Auto WD": {
+        "Status": "OFF",
+        "Trigger Balance": "12000",
+        "Amount WD": "10000",
+        "Tip Username": "rumble9",
+        "Wallet": {
+            "Is Faucetpay": "False",
+            "Address": "TNGrubCk4uzHvJGsGxiuU6AGpH7zrWCrnz"
+        }
+    },
+    "Auto Remove History": {
+        "Status": "ON",
+        "Size Limit (MB)": "50"
+    },
+    "Reset Seed": {
+        "Status": "ON",
+        "At Start Game": "False",
+        "After Bet": "0",
+        "After Play (min)": "15"
+    },
+    "Bet Roll": {
+        "Random": "True",
+        "Bet High": "False",
+        "Switch Hi / Low": {
+            "Status": "OFF",
+            "If Win": "4",
+            "If Lose": "3"
+        }
+    },
+    "Bet Amount": {
+        "Base Bet": "0.000001",
+        "Preroll Bet": "0.000001",
+        "Shoot Bet": "5",
+        "Auto Shoot": {
+            "Status": "OFF",
+            "After Win Streak": "0",
+            "After Lose Streak": "6"
+        },
+        "Constant Divider": {
+            "Status": "OFF",
+            "Re-Calculate on Profit": "False",
+            "Divider": "5000000"
+        }
+    },
+    "Betset": {
+        "Martingale": {
+            "Status": "OFF",
+            "Chance to Win": {
+                "Min": "47.5",
+                "Max": "47.5"
+            },
+            "Increase bet after": {
+                "Win": "1",
+                "Lose": "2"
+            },
+            "Reset to base if": {
+                "Win": "0",
+                "Lose": "0",
+                "Max Bet": "0",
+                "Profit": "0.00000001"
+            }
+        },
+        "Role Rumble": {
+            "Status": "ON",
+            "Lemper Mode": "False",
+            "Continuous Bet": "False",
+            "Reset Jump": {
+                "If Profit": "0",
+                "If Win": "1"
+            },
+            "Mode": [
+                {
+                    "Name": "Rumble 1",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "0.1",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "False"
+                    },
+                    "Increase bet after": {
+                        "Win": "1",
+                        "Lose": "1"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.0000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "40",
+                        "Max": "45"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "2",
+                        "After Profit": "0",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                },
+                {
+                    "Name": "Rumble 2",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "0.1",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "True"
+                    },
+                    "Increase bet after": {
+                        "Win": "1",
+                        "Lose": "1"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.00000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "12",
+                        "Max": "15"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "2",
+                        "After Profit": "0",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                },
+                {
+                    "Name": "Rumble 3",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "0.4",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "True"
+                    },
+                    "Increase bet after": {
+                        "Win": "1",
+                        "Lose": "2.1"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.00000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "40",
+                        "Max": "45"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "1",
+                        "After Profit": "0",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                },
+                {
+                    "Name": "Rumble 4",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "0.8",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "True"
+                    },
+                    "Increase bet after": {
+                        "Win": "1",
+                        "Lose": "2.1"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.00000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "40",
+                        "Max": "45"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "1",
+                        "After Profit": "0",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                },
+                {
+                    "Name": "Rumble 5",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "0.35",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "True"
+                    },
+                    "Increase bet after": {
+                        "Win": "1",
+                        "Lose": "2.1"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.00000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "12",
+                        "Max": "15"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "1",
+                        "After Profit": "0",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                },
+                {
+                    "Name": "Rumble 6",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "0.4",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "True"
+                    },
+                    "Increase bet after": {
+                        "Win": "1",
+                        "Lose": "1"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.00000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "12",
+                        "Max": "15"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "1",
+                        "After Profit": "0",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                },
+                {
+                    "Name": "Rumble 7",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "2.35",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "True"
+                    },
+                    "Increase bet after": {
+                        "Win": "1",
+                        "Lose": "2.1"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.00000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "40",
+                        "Max": "45"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "1",
+                        "After Profit": "0",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                },
+                {
+                    "Name": "Rumble 8",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "4.7",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "True"
+                    },
+                    "Increase bet after": {
+                        "Win": "1",
+                        "Lose": "2.1"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.00000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "40",
+                        "Max": "45"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "1",
+                        "After Profit": "0",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                },
+                {
+                    "Name": "Rumble 9",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "1.8",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "True"
+                    },
+                    "Increase bet after": {
+                        "Win": "1",
+                        "Lose": "1"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.00000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "12",
+                        "Max": "15"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "1",
+                        "After Profit": "0",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                },
+                {
+                    "Name": "Rumble 10",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "2.4",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "True"
+                    },
+                    "Increase bet after": {
+                        "Win": "1",
+                        "Lose": "1"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.00000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "12",
+                        "Max": "15"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "1",
+                        "After Profit": "0",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                },
+                {
+                    "Name": "Rumble 11",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "13.6",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "True"
+                    },
+                    "Increase bet after": {
+                        "Win": "1",
+                        "Lose": "2.1"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.00000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "40",
+                        "Max": "45"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "1",
+                        "After Profit": "0",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                },
+                {
+                    "Name": "Rumble 12",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "27.2",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "True"
+                    },
+                    "Increase bet after": {
+                        "Win": "1",
+                        "Lose": "2.1"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.00000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "40",
+                        "Max": "45"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "1",
+                        "After Profit": "0",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                },
+                {
+                    "Name": "Rumble 13",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "10.3",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "True"
+                    },
+                    "Increase bet after": {
+                        "Win": "1",
+                        "Lose": "1"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.00000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "12",
+                        "Max": "15"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "1",
+                        "After Profit": "0",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                },
+                {
+                    "Name": "Rumble 14",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "12.2",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "True"
+                    },
+                    "Increase bet after": {
+                        "Win": "1",
+                        "Lose": "1"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.00000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "12",
+                        "Max": "15"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "1",
+                        "After Profit": "0",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                },
+                {
+                    "Name": "Rumble 15",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "76.9",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "True"
+                    },
+                    "Increase bet after": {
+                        "Win": "1",
+                        "Lose": "2.1"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.00000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "40",
+                        "Max": "45"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "1",
+                        "After Profit": "0",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                },
+                {
+                    "Name": "Rumble 16",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "153.8",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "True"
+                    },
+                    "Increase bet after": {
+                        "Win": "1",
+                        "Lose": "2.1"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.00000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "40",
+                        "Max": "45"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "1",
+                        "After Profit": "0",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                },
+                {
+                    "Name": "Rumble 17",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "58",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "True"
+                    },
+                    "Increase bet after": {
+                        "Win": "1",
+                        "Lose": "1"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.00000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "12",
+                        "Max": "15"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "1",
+                        "After Profit": "0",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                },
+                {
+                    "Name": "Rumble 18",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "69",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "True"
+                    },
+                    "Increase bet after": {
+                        "Win": "1",
+                        "Lose": "1"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.00000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "12",
+                        "Max": "15"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "1",
+                        "After Profit": "0",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                },
+                {
+                    "Name": "Rumble 19",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "434.6",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "True"
+                    },
+                    "Increase bet after": {
+                        "Win": "1",
+                        "Lose": "2.1"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.00000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "40",
+                        "Max": "45"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "1",
+                        "After Profit": "0",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                },
+                {
+                    "Name": "Rumble 20",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "869,2",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "True"
+                    },
+                    "Increase bet after": {
+                        "Win": "1",
+                        "Lose": "2.1"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.00000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "40",
+                        "Max": "45"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "1",
+                        "After Profit": "0",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                },
+                {
+                    "Name": "Rumble 21",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "327",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "True"
+                    },
+                    "Increase bet after": {
+                        "Win": "1",
+                        "Lose": "1"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.00000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "12",
+                        "Max": "15"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "1",
+                        "After Profit": "0",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                },
+                {
+                    "Name": "Rumble 22",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "376",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "True"
+                    },
+                    "Increase bet after": {
+                        "Win": "1",
+                        "Lose": "1"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.00000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "12",
+                        "Max": "15"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "1",
+                        "After Profit": "0",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                },
+                {
+                    "Name": "Rumble 24",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "2442",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "True"
+                    },
+                    "Increase bet after": {
+                        "Win": "1",
+                        "Lose": "2.1"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.00000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "40",
+                        "Max": "45"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "1",
+                        "After Profit": "0",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                },
+                {
+                    "Name": "Rumble 25",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "4884",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "True"
+                    },
+                    "Increase bet after": {
+                        "Win": "1",
+                        "Lose": "2.1"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.00000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "40",
+                        "Max": "45"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "1",
+                        "After Profit": "0",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                },
+                {
+                    "Name": "Rumble 26",
+                    "Status": "ON",
+                    "Lemper Mode": "False",
+                    "Base": "1833",
+                    "Balance Divider": {
+                        "Status": "OFF",
+                        "Divider": "1000000",
+                        "Recalculate on Profit": "True"
+                    },
+                    "Increase bet after": {
+                        "Win": "1",
+                        "Lose": "1.19454"
+                    },
+                    "Reset to base if": {
+                        "Win": "0",
+                        "Lose": "0",
+                        "Max Bet": "0",
+                        "Profit": "0.00000001"
+                    },
+                    "Chance to Win": {
+                        "Min": "12",
+                        "Max": "15"
+                    },
+                    "Jump to Next Mode": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "0",
+                        "After Profit": "0",
+                        "Next Win After Bet": "0",
+                        "After Lose Amount": "0"
+                    }
+                }
+            ]
+        }
+    }
+}
