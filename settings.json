@@ -728,7 +728,7 @@
                     "Name": "Rumble 20",
                     "Status": "ON",
                     "Lemper Mode": "False",
-                    "Base": "869,2",
+                    "Base": "869.2",
                     "Balance Divider": {
                         "Status": "OFF",
                         "Divider": "1000000",
